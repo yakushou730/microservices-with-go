@@ -7,8 +7,8 @@ import (
 )
 
 func main() {
-	http.HandleFunc("/example", logDecorator(myHandlerFunc))
-	http.HandleFunc("/example2", logDecorator(myHandlerFunc2))
+	http.Handle("/example", HeaderDecorator(http.HandlerFunc(myHandlerFunc)))
+	http.Handle("/example2", HeaderDecorator(http.HandlerFunc(myHandlerFunc2)))
 
 	log.Println("Starting Server")
 	log.Fatal(http.ListenAndServe(":8080", nil))
@@ -28,9 +28,16 @@ func myHandlerFunc2(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintln(w, "Example-2; Request was succesful")
 }
 
-func logDecorator(next http.HandlerFunc) http.HandlerFunc {
-	return func(w http.ResponseWriter, r *http.Request) {
+func HeaderDecorator(h http.Handler) http.Handler {
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Passed-Through-Decorator", "YES")
+		h.ServeHTTP(w, r)
+	})
+}
+
+func logDecorator(h http.Handler) http.Handler {
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		log.Printf(r.RequestURI+": We have a connection from %s", r.RemoteAddr)
-		next(w, r)
-	}
+		h.ServeHTTP(w, r)
+	})
 }
