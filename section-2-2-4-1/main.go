@@ -28,7 +28,7 @@ func myHandlerFunc2(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintln(w, "Example-2; Request was succesful")
 }
 
-func logDecorator(next func(w http.ResponseWriter, r *http.Request)) func(w http.ResponseWriter, r *http.Request) {
+func logDecorator(next http.HandlerFunc) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		log.Printf(r.RequestURI+": We have a connection from %s", r.RemoteAddr)
 		next(w, r)
