@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package fibonacci;
+
+service Fibonacci {
+    rpc Calculate (FibonacciRequest) returns (FibonacciReply) {}
+}
+
+message FibonacciRequest {
+    uint32 number = 1;
+}
+
+message FibonacciReply {
+    uint64 result = 1;
+    uint64 processingTime = 2;
+}
