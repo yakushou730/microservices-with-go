@@ -8,6 +8,7 @@ require (
 	github.com/golang/protobuf v1.3.3
 	github.com/gorilla/mux v1.7.4
 	github.com/lib/pq v1.3.0
+	github.com/mediocregopher/radix.v2 v0.0.0-20181115013041-b67df6e626f9
 	golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2
 	google.golang.org/grpc v1.27.1
 )
