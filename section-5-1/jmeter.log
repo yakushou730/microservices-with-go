@@ -1,0 +1,1073 @@
+2020-03-03 22:27:31,395 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-03-03 22:27:31,424 INFO o.a.j.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/5.2.1/libexec/bin/user.properties
+2020-03-03 22:27:31,425 INFO o.a.j.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/5.2.1/libexec/bin/system.properties
+2020-03-03 22:27:31,428 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2020-03-03 22:27:31,428 INFO o.a.j.JMeter: Version 5.2.1
+2020-03-03 22:27:31,428 INFO o.a.j.JMeter: java.version=1.8.0_101
+2020-03-03 22:27:31,428 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2020-03-03 22:27:31,428 INFO o.a.j.JMeter: os.name=Mac OS X
+2020-03-03 22:27:31,428 INFO o.a.j.JMeter: os.arch=x86_64
+2020-03-03 22:27:31,428 INFO o.a.j.JMeter: os.version=10.14.6
+2020-03-03 22:27:31,428 INFO o.a.j.JMeter: file.encoding=UTF-8
+2020-03-03 22:27:31,429 INFO o.a.j.JMeter: java.awt.headless=null
+2020-03-03 22:27:31,429 INFO o.a.j.JMeter: Max memory     =1073741824
+2020-03-03 22:27:31,429 INFO o.a.j.JMeter: Available Processors =4
+2020-03-03 22:27:31,435 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-03-03 22:27:31,435 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-03-03 22:27:31,436 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/5.2.1/libexec
+2020-03-03 22:27:31,436 INFO o.a.j.JMeter: user.dir  =/Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1
+2020-03-03 22:27:31,436 INFO o.a.j.JMeter: PWD       =/Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1
+2020-03-03 22:27:31,437 INFO o.a.j.JMeter: IP: 169.254.199.16 Name: cengyaoshangde-MacBook-Pro.local FullName: cengyaoshangde-macbook-pro.local
+2020-03-03 22:27:33,927 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2020-03-03 22:27:33,949 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2020-03-03 22:27:33,949 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
+2020-03-03 22:27:34,066 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2020-03-03 22:27:35,475 INFO o.j.r.JARSourceHTTP: Found cached repo
+2020-03-03 22:27:35,803 INFO o.j.r.PluginManager: Plugins Status: [jpgc-plugins-manager=1.3, jmeter-core=5.2.1, jmeter-ftp=5.2.1, jmeter-http=5.2.1, jmeter-jdbc=5.2.1, jmeter-jms=5.2.1, jmeter-junit=5.2.1, jmeter-java=5.2.1, jmeter-ldap=5.2.1, jmeter-mail=5.2.1, jmeter-mongodb=5.2.1, jmeter-native=5.2.1, jmeter-tcp=5.2.1, jmeter-components=5.2.1]
+2020-03-03 22:27:37,821 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-03-03 22:27:37,822 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-03-03 22:27:37,823 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-03-03 22:27:37,823 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-03-03 22:27:37,823 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-03-03 22:27:37,823 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-03-03 22:27:38,484 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2020-03-03 22:27:38,486 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /usr/local/Cellar/jmeter/5.2.1/libexec/bin/proxyserver.jks
+2020-03-03 22:27:38,763 INFO o.a.j.s.FileServer: Default base='/Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1'
+2020-03-03 22:27:39,414 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-03-03 22:27:39,414 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-03-03 22:27:39,414 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-03-03 22:27:39,414 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-03-03 22:28:04,652 INFO o.a.j.g.a.Load: Loading file: /Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1/TestPlan-With-CSV.jmx
+2020-03-03 22:28:04,653 INFO o.a.j.s.FileServer: Set new base='/Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1'
+2020-03-03 22:28:04,850 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-03-03 22:28:04,855 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-03-03 22:28:04,858 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-03-03 22:28:04,862 INFO o.a.j.s.SaveService: Loading file: /Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1/TestPlan-With-CSV.jmx
+2020-03-03 22:28:05,292 INFO o.a.j.s.FileServer: Set new base='/Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1'
+2020-03-03 22:30:02,849 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-03-03 22:30:02,852 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-03-03 22:30:02,852 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-03-03 22:30:02,859 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-03-03 22:30:02,859 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-03-03 22:30:03,668 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-03-03 22:30:03,955 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-03-03 22:30:03,955 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group.
+2020-03-03 22:30:03,955 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-03-03 22:30:03,955 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2020-03-03 22:30:03,971 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-03-03 22:30:03,976 INFO o.a.j.s.FileServer: Stored: /Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1/username-dumps/usernames-10000-0.csv
+2020-03-03 22:30:03,996 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = cengyaoshangde-MacBook-Pro.local
+2020-03-03 22:30:04,005 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2020-03-03 22:30:04,006 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-03-03 22:30:04,006 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-03-03 22:30:04,065 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-03-03 22:30:04,164 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2020-03-03 22:30:04,274 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2020-03-03 22:30:04,364 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2020-03-03 22:30:04,460 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2020-03-03 22:30:04,564 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2020-03-03 22:30:04,670 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2020-03-03 22:30:04,762 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2020-03-03 22:30:04,862 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2020-03-03 22:30:27,053 INFO o.a.j.g.a.Start: Stopping test
+2020-03-03 22:30:27,105 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-4
+2020-03-03 22:30:27,106 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-4 sampler: HTTP Request
+2020-03-03 22:30:27,108 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-6
+2020-03-03 22:30:27,108 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-6 sampler: HTTP Request
+2020-03-03 22:30:27,110 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2020-03-03 22:30:27,113 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-1
+2020-03-03 22:30:27,113 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-1 sampler: HTTP Request
+2020-03-03 22:30:27,115 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-5
+2020-03-03 22:30:27,115 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-5 sampler: HTTP Request
+2020-03-03 22:30:27,116 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2020-03-03 22:30:27,117 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-3
+2020-03-03 22:30:27,117 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-3 sampler: HTTP Request
+2020-03-03 22:30:27,118 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-7
+2020-03-03 22:30:27,118 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-7 sampler: HTTP Request
+2020-03-03 22:30:27,119 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-9
+2020-03-03 22:30:27,121 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2020-03-03 22:30:27,121 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-9 sampler: HTTP Request
+2020-03-03 22:30:27,121 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-03-03 22:30:27,122 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2020-03-03 22:30:27,123 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-8
+2020-03-03 22:30:27,123 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2020-03-03 22:30:27,123 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-8 sampler: HTTP Request
+2020-03-03 22:30:27,124 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2020-03-03 22:30:27,125 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-2
+2020-03-03 22:30:27,126 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-2 sampler: HTTP Request
+2020-03-03 22:30:27,127 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-10
+2020-03-03 22:30:27,128 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-10 sampler: HTTP Request
+2020-03-03 22:30:27,128 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2020-03-03 22:30:27,128 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-03-03 22:30:27,130 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2020-03-03 22:30:27,132 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-03-03 22:30:27,133 INFO o.a.j.s.FileServer: Close: /Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1/username-dumps/usernames-10000-0.csv
+2020-03-03 22:30:27,133 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-03-03 22:30:30,665 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-03-03 22:30:30,666 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-03-03 22:30:30,668 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-03-03 22:30:30,850 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-03-03 22:30:30,850 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group.
+2020-03-03 22:30:30,851 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-03-03 22:30:30,851 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2020-03-03 22:30:30,854 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-03-03 22:30:30,855 INFO o.a.j.s.FileServer: Stored: /Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1/username-dumps/usernames-10000-0.csv
+2020-03-03 22:30:30,871 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-03-03 22:30:30,871 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-03-03 22:30:30,959 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-03-03 22:30:31,062 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2020-03-03 22:30:31,158 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2020-03-03 22:30:31,254 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2020-03-03 22:30:31,356 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2020-03-03 22:30:31,459 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2020-03-03 22:30:31,554 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2020-03-03 22:30:31,657 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2020-03-03 22:30:31,759 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2020-03-03 22:30:48,179 INFO o.a.j.g.a.Start: Stopping test
+2020-03-03 22:30:48,228 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-5
+2020-03-03 22:30:48,229 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-5 sampler: HTTP Request
+2020-03-03 22:30:48,230 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-7
+2020-03-03 22:30:48,231 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-7 sampler: HTTP Request
+2020-03-03 22:30:48,232 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2020-03-03 22:30:48,232 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-3
+2020-03-03 22:30:48,233 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-3 sampler: HTTP Request
+2020-03-03 22:30:48,234 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2020-03-03 22:30:48,235 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-4
+2020-03-03 22:30:48,235 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-4 sampler: HTTP Request
+2020-03-03 22:30:48,236 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2020-03-03 22:30:48,247 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-9
+2020-03-03 22:30:48,248 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-9 sampler: HTTP Request
+2020-03-03 22:30:48,248 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2020-03-03 22:30:48,249 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-10
+2020-03-03 22:30:48,250 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-10 sampler: HTTP Request
+2020-03-03 22:30:48,251 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2020-03-03 22:30:48,251 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-6
+2020-03-03 22:30:48,252 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2020-03-03 22:30:48,251 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-6 sampler: HTTP Request
+2020-03-03 22:30:48,253 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-1
+2020-03-03 22:30:48,253 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-1 sampler: HTTP Request
+2020-03-03 22:30:48,253 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2020-03-03 22:30:48,255 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-2
+2020-03-03 22:30:48,255 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-2 sampler: HTTP Request
+2020-03-03 22:30:48,256 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-8
+2020-03-03 22:30:48,256 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-8 sampler: HTTP Request
+2020-03-03 22:30:48,257 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-03-03 22:30:48,260 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-03-03 22:30:48,265 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2020-03-03 22:30:48,265 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-03-03 22:30:48,265 INFO o.a.j.s.FileServer: Close: /Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1/username-dumps/usernames-10000-0.csv
+2020-03-03 22:30:48,266 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-03-03 22:30:59,960 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-03-03 22:30:59,961 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-03-03 22:30:59,962 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-03-03 22:31:00,143 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-03-03 22:31:00,144 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group.
+2020-03-03 22:31:00,144 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-03-03 22:31:00,145 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2020-03-03 22:31:00,147 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-03-03 22:31:00,148 INFO o.a.j.s.FileServer: Stored: /Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1/username-dumps/usernames-10000-0.csv
+2020-03-03 22:31:00,157 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-03-03 22:31:00,157 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-03-03 22:31:00,246 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-03-03 22:31:00,348 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2020-03-03 22:31:00,447 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2020-03-03 22:31:00,548 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2020-03-03 22:31:00,652 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2020-03-03 22:31:00,748 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2020-03-03 22:31:00,850 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2020-03-03 22:31:00,951 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2020-03-03 22:31:01,049 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2020-03-03 22:31:26,119 INFO o.a.j.g.a.Start: Stopping test
+2020-03-03 22:31:26,183 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-6
+2020-03-03 22:31:26,184 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-6 sampler: HTTP Request
+2020-03-03 22:31:26,186 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-8
+2020-03-03 22:31:26,186 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-8 sampler: HTTP Request
+2020-03-03 22:31:26,187 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2020-03-03 22:31:26,187 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-9
+2020-03-03 22:31:26,187 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-9 sampler: HTTP Request
+2020-03-03 22:31:26,188 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-3
+2020-03-03 22:31:26,190 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-3 sampler: HTTP Request
+2020-03-03 22:31:26,191 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2020-03-03 22:31:26,191 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-10
+2020-03-03 22:31:26,191 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2020-03-03 22:31:26,193 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-10 sampler: HTTP Request
+2020-03-03 22:31:26,194 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-1
+2020-03-03 22:31:26,194 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-1 sampler: HTTP Request
+2020-03-03 22:31:26,195 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-2
+2020-03-03 22:31:26,195 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2020-03-03 22:31:26,195 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-03-03 22:31:26,195 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-2 sampler: HTTP Request
+2020-03-03 22:31:26,195 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2020-03-03 22:31:26,196 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-4
+2020-03-03 22:31:26,196 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-4 sampler: HTTP Request
+2020-03-03 22:31:26,199 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-5
+2020-03-03 22:31:26,199 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-03-03 22:31:26,199 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-5 sampler: HTTP Request
+2020-03-03 22:31:26,200 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-7
+2020-03-03 22:31:26,200 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2020-03-03 22:31:26,200 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-7 sampler: HTTP Request
+2020-03-03 22:31:26,201 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2020-03-03 22:31:26,201 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2020-03-03 22:31:26,201 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-03-03 22:31:26,202 INFO o.a.j.s.FileServer: Close: /Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1/username-dumps/usernames-10000-0.csv
+2020-03-03 22:31:26,202 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-03-03 22:37:51,267 INFO o.a.j.g.a.Load: Loading file: /Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1/TestPlan-With-CSV.jmx
+2020-03-03 22:37:51,268 INFO o.a.j.s.FileServer: Set new base='/Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1'
+2020-03-03 22:37:51,268 INFO o.a.j.s.SaveService: Loading file: /Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1/TestPlan-With-CSV.jmx
+2020-03-03 22:37:51,521 INFO o.a.j.s.FileServer: Set new base='/Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1'
+2020-03-03 22:41:11,270 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-03-03 22:41:11,271 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-03-03 22:41:11,272 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-03-03 22:41:11,672 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-03-03 22:41:11,672 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group Thread Group.
+2020-03-03 22:41:11,672 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-03-03 22:41:11,672 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=100 ramp-up=1 delayedStart=false
+2020-03-03 22:41:11,675 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-03-03 22:41:11,675 INFO o.a.j.s.FileServer: Stored: /Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1/username-dumps/usernames-10000-0.csv
+2020-03-03 22:41:11,691 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-03-03 22:41:11,703 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2020-03-03 22:41:11,706 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2020-03-03 22:41:11,720 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2020-03-03 22:41:11,737 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2020-03-03 22:41:11,739 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2020-03-03 22:41:11,752 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2020-03-03 22:41:11,762 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2020-03-03 22:41:11,769 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2020-03-03 22:41:11,777 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2020-03-03 22:41:11,791 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2020-03-03 22:41:11,800 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2020-03-03 22:41:11,808 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2020-03-03 22:41:11,817 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-03-03 22:41:11,817 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-03-03 22:41:11,826 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2020-03-03 22:41:11,835 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2020-03-03 22:41:11,843 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2020-03-03 22:41:11,853 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2020-03-03 22:41:11,865 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2020-03-03 22:41:11,872 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2020-03-03 22:41:11,875 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-21
+2020-03-03 22:41:11,887 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-22
+2020-03-03 22:41:11,897 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-23
+2020-03-03 22:41:11,906 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-24
+2020-03-03 22:41:11,914 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-25
+2020-03-03 22:41:11,924 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-26
+2020-03-03 22:41:11,934 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-27
+2020-03-03 22:41:11,945 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-28
+2020-03-03 22:41:11,956 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-29
+2020-03-03 22:41:11,968 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-30
+2020-03-03 22:41:11,978 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-31
+2020-03-03 22:41:11,985 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-32
+2020-03-03 22:41:11,995 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-33
+2020-03-03 22:41:12,005 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-34
+2020-03-03 22:41:12,016 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-35
+2020-03-03 22:41:12,026 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-36
+2020-03-03 22:41:12,034 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-37
+2020-03-03 22:41:12,043 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-38
+2020-03-03 22:41:12,053 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-39
+2020-03-03 22:41:12,065 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-40
+2020-03-03 22:41:12,076 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-41
+2020-03-03 22:41:12,084 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-42
+2020-03-03 22:41:12,093 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-43
+2020-03-03 22:41:12,108 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-44
+2020-03-03 22:41:12,116 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-45
+2020-03-03 22:41:12,126 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-46
+2020-03-03 22:41:12,135 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-47
+2020-03-03 22:41:12,146 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-48
+2020-03-03 22:41:12,154 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-49
+2020-03-03 22:41:12,168 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-50
+2020-03-03 22:41:12,177 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-51
+2020-03-03 22:41:12,187 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-52
+2020-03-03 22:41:12,194 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-53
+2020-03-03 22:41:12,204 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-54
+2020-03-03 22:41:12,216 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-55
+2020-03-03 22:41:12,228 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-56
+2020-03-03 22:41:12,234 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-57
+2020-03-03 22:41:12,244 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-58
+2020-03-03 22:41:12,255 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-59
+2020-03-03 22:41:12,266 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-60
+2020-03-03 22:41:12,274 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-61
+2020-03-03 22:41:12,285 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-62
+2020-03-03 22:41:12,294 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-63
+2020-03-03 22:41:12,305 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-64
+2020-03-03 22:41:12,317 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-65
+2020-03-03 22:41:12,328 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-66
+2020-03-03 22:41:12,336 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-67
+2020-03-03 22:41:12,345 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-68
+2020-03-03 22:41:12,355 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-69
+2020-03-03 22:41:12,366 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-70
+2020-03-03 22:41:12,377 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-71
+2020-03-03 22:41:12,384 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-72
+2020-03-03 22:41:12,398 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-73
+2020-03-03 22:41:12,402 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-74
+2020-03-03 22:41:12,413 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-75
+2020-03-03 22:41:12,423 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-76
+2020-03-03 22:41:12,435 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-77
+2020-03-03 22:41:12,445 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-78
+2020-03-03 22:41:12,455 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-79
+2020-03-03 22:41:12,469 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-80
+2020-03-03 22:41:12,474 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-81
+2020-03-03 22:41:12,486 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-82
+2020-03-03 22:41:12,496 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-83
+2020-03-03 22:41:12,506 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-84
+2020-03-03 22:41:12,516 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-85
+2020-03-03 22:41:12,525 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-86
+2020-03-03 22:41:12,537 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-87
+2020-03-03 22:41:12,547 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-88
+2020-03-03 22:41:12,553 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-89
+2020-03-03 22:41:12,568 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-90
+2020-03-03 22:41:12,573 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-91
+2020-03-03 22:41:12,587 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-92
+2020-03-03 22:41:12,595 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-93
+2020-03-03 22:41:12,607 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-94
+2020-03-03 22:41:12,619 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-95
+2020-03-03 22:41:12,628 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-96
+2020-03-03 22:41:12,635 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-97
+2020-03-03 22:41:12,645 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-98
+2020-03-03 22:41:12,655 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-99
+2020-03-03 22:41:12,664 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-100
+2020-03-03 22:41:30,014 INFO o.a.j.g.a.Start: Stopping test
+2020-03-03 22:41:30,059 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-35
+2020-03-03 22:41:30,060 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-35 sampler: HTTP Request
+2020-03-03 22:41:30,064 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-77
+2020-03-03 22:41:30,065 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-77 sampler: HTTP Request
+2020-03-03 22:41:30,066 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-35
+2020-03-03 22:41:30,067 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-1
+2020-03-03 22:41:30,067 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-1 sampler: HTTP Request
+2020-03-03 22:41:30,068 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-77
+2020-03-03 22:41:30,070 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-57
+2020-03-03 22:41:30,071 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-57 sampler: HTTP Request
+2020-03-03 22:41:30,072 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-03-03 22:41:30,073 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-48
+2020-03-03 22:41:30,074 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-48 sampler: HTTP Request
+2020-03-03 22:41:30,074 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-57
+2020-03-03 22:41:30,077 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-48
+2020-03-03 22:41:30,076 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-63
+2020-03-03 22:41:30,077 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-63 sampler: HTTP Request
+2020-03-03 22:41:30,082 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-53
+2020-03-03 22:41:30,082 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-53 sampler: HTTP Request
+2020-03-03 22:41:30,083 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-63
+2020-03-03 22:41:30,086 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-25
+2020-03-03 22:41:30,087 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-25 sampler: HTTP Request
+2020-03-03 22:41:30,088 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-53
+2020-03-03 22:41:30,089 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-78
+2020-03-03 22:41:30,090 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-78 sampler: HTTP Request
+2020-03-03 22:41:30,095 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-25
+2020-03-03 22:41:30,096 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-68
+2020-03-03 22:41:30,096 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-68 sampler: HTTP Request
+2020-03-03 22:41:30,100 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-78
+2020-03-03 22:41:30,101 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-39
+2020-03-03 22:41:30,101 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-39 sampler: HTTP Request
+2020-03-03 22:41:30,107 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-21
+2020-03-03 22:41:30,107 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-21 sampler: HTTP Request
+2020-03-03 22:41:30,108 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-68
+2020-03-03 22:41:30,110 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-39
+2020-03-03 22:41:30,112 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-74
+2020-03-03 22:41:30,112 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-74 sampler: HTTP Request
+2020-03-03 22:41:30,114 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-21
+2020-03-03 22:41:30,115 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-32
+2020-03-03 22:41:30,117 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-32 sampler: HTTP Request
+2020-03-03 22:41:30,116 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-74
+2020-03-03 22:41:30,121 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-69
+2020-03-03 22:41:30,121 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-69 sampler: HTTP Request
+2020-03-03 22:41:30,124 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-32
+2020-03-03 22:41:30,124 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-72
+2020-03-03 22:41:30,124 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-72 sampler: HTTP Request
+2020-03-03 22:41:30,126 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-69
+2020-03-03 22:41:30,129 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-84
+2020-03-03 22:41:30,129 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-84 sampler: HTTP Request
+2020-03-03 22:41:30,130 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-72
+2020-03-03 22:41:30,134 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-92
+2020-03-03 22:41:30,134 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-92 sampler: HTTP Request
+2020-03-03 22:41:30,136 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-70
+2020-03-03 22:41:30,136 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-84
+2020-03-03 22:41:30,136 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-70 sampler: HTTP Request
+2020-03-03 22:41:30,138 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-92
+2020-03-03 22:41:30,138 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-88
+2020-03-03 22:41:30,139 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-88 sampler: HTTP Request
+2020-03-03 22:41:30,142 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-70
+2020-03-03 22:41:30,142 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-98
+2020-03-03 22:41:30,143 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-98 sampler: HTTP Request
+2020-03-03 22:41:30,144 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-15
+2020-03-03 22:41:30,144 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-15 sampler: HTTP Request
+2020-03-03 22:41:30,144 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-88
+2020-03-03 22:41:30,148 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-89
+2020-03-03 22:41:30,148 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-89 sampler: HTTP Request
+2020-03-03 22:41:30,149 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-98
+2020-03-03 22:41:30,150 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2020-03-03 22:41:30,151 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-91
+2020-03-03 22:41:30,151 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-91 sampler: HTTP Request
+2020-03-03 22:41:30,152 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-89
+2020-03-03 22:41:30,154 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-91
+2020-03-03 22:41:30,153 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-13
+2020-03-03 22:41:30,155 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-13 sampler: HTTP Request
+2020-03-03 22:41:30,157 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-93
+2020-03-03 22:41:30,157 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-93 sampler: HTTP Request
+2020-03-03 22:41:30,163 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2020-03-03 22:41:30,168 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-43
+2020-03-03 22:41:30,168 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-43 sampler: HTTP Request
+2020-03-03 22:41:30,182 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-93
+2020-03-03 22:41:30,187 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-16
+2020-03-03 22:41:30,187 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-16 sampler: HTTP Request
+2020-03-03 22:41:30,191 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-43
+2020-03-03 22:41:30,193 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-55
+2020-03-03 22:41:30,193 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-55 sampler: HTTP Request
+2020-03-03 22:41:30,196 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2020-03-03 22:41:30,199 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-66
+2020-03-03 22:41:30,199 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-66 sampler: HTTP Request
+2020-03-03 22:41:30,201 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-55
+2020-03-03 22:41:30,201 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-8
+2020-03-03 22:41:30,201 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-8 sampler: HTTP Request
+2020-03-03 22:41:30,206 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-100
+2020-03-03 22:41:30,206 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-100 sampler: HTTP Request
+2020-03-03 22:41:30,206 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-66
+2020-03-03 22:41:30,207 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2020-03-03 22:41:30,208 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-36
+2020-03-03 22:41:30,208 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-36 sampler: HTTP Request
+2020-03-03 22:41:30,213 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-85
+2020-03-03 22:41:30,213 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-85 sampler: HTTP Request
+2020-03-03 22:41:30,213 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-100
+2020-03-03 22:41:30,216 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-73
+2020-03-03 22:41:30,216 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-36
+2020-03-03 22:41:30,216 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-73 sampler: HTTP Request
+2020-03-03 22:41:30,217 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-85
+2020-03-03 22:41:30,217 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-19
+2020-03-03 22:41:30,218 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-19 sampler: HTTP Request
+2020-03-03 22:41:30,219 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-73
+2020-03-03 22:41:30,220 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-7
+2020-03-03 22:41:30,221 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-7 sampler: HTTP Request
+2020-03-03 22:41:30,222 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2020-03-03 22:41:30,223 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-31
+2020-03-03 22:41:30,223 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-31 sampler: HTTP Request
+2020-03-03 22:41:30,224 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-23
+2020-03-03 22:41:30,224 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-23 sampler: HTTP Request
+2020-03-03 22:41:30,225 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2020-03-03 22:41:30,225 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-31
+2020-03-03 22:41:30,226 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-56
+2020-03-03 22:41:30,226 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-56 sampler: HTTP Request
+2020-03-03 22:41:30,227 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-23
+2020-03-03 22:41:30,227 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-96
+2020-03-03 22:41:30,228 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-96 sampler: HTTP Request
+2020-03-03 22:41:30,229 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-56
+2020-03-03 22:41:30,231 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-22
+2020-03-03 22:41:30,232 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-22 sampler: HTTP Request
+2020-03-03 22:41:30,233 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-96
+2020-03-03 22:41:30,233 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-44
+2020-03-03 22:41:30,234 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-44 sampler: HTTP Request
+2020-03-03 22:41:30,234 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-22
+2020-03-03 22:41:30,235 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-61
+2020-03-03 22:41:30,235 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-61 sampler: HTTP Request
+2020-03-03 22:41:30,236 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-44
+2020-03-03 22:41:30,239 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-49
+2020-03-03 22:41:30,240 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-49 sampler: HTTP Request
+2020-03-03 22:41:30,240 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-61
+2020-03-03 22:41:30,240 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-58
+2020-03-03 22:41:30,241 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-58 sampler: HTTP Request
+2020-03-03 22:41:30,244 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-34
+2020-03-03 22:41:30,244 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-49
+2020-03-03 22:41:30,244 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-34 sampler: HTTP Request
+2020-03-03 22:41:30,246 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-58
+2020-03-03 22:41:30,247 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-9
+2020-03-03 22:41:30,247 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-9 sampler: HTTP Request
+2020-03-03 22:41:30,250 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-40
+2020-03-03 22:41:30,250 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-40 sampler: HTTP Request
+2020-03-03 22:41:30,252 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-90
+2020-03-03 22:41:30,252 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-34
+2020-03-03 22:41:30,252 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-90 sampler: HTTP Request
+2020-03-03 22:41:30,252 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2020-03-03 22:41:30,252 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-40
+2020-03-03 22:41:30,254 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-64
+2020-03-03 22:41:30,255 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-64 sampler: HTTP Request
+2020-03-03 22:41:30,255 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-90
+2020-03-03 22:41:30,255 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-76
+2020-03-03 22:41:30,255 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-76 sampler: HTTP Request
+2020-03-03 22:41:30,256 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-64
+2020-03-03 22:41:30,256 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-29
+2020-03-03 22:41:30,256 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-29 sampler: HTTP Request
+2020-03-03 22:41:30,257 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-37
+2020-03-03 22:41:30,257 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-76
+2020-03-03 22:41:30,258 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-37 sampler: HTTP Request
+2020-03-03 22:41:30,258 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-60
+2020-03-03 22:41:30,258 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-60 sampler: HTTP Request
+2020-03-03 22:41:30,258 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-29
+2020-03-03 22:41:30,259 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-37
+2020-03-03 22:41:30,259 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-38
+2020-03-03 22:41:30,260 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-38 sampler: HTTP Request
+2020-03-03 22:41:30,261 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-60
+2020-03-03 22:41:30,261 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-10
+2020-03-03 22:41:30,261 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-10 sampler: HTTP Request
+2020-03-03 22:41:30,263 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-38
+2020-03-03 22:41:30,263 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-24
+2020-03-03 22:41:30,264 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-24 sampler: HTTP Request
+2020-03-03 22:41:30,267 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-27
+2020-03-03 22:41:30,267 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2020-03-03 22:41:30,268 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-27 sampler: HTTP Request
+2020-03-03 22:41:30,270 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-24
+2020-03-03 22:41:30,270 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-62
+2020-03-03 22:41:30,270 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-62 sampler: HTTP Request
+2020-03-03 22:41:30,272 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-27
+2020-03-03 22:41:30,272 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-97
+2020-03-03 22:41:30,272 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-97 sampler: HTTP Request
+2020-03-03 22:41:30,273 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-33
+2020-03-03 22:41:30,273 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-33 sampler: HTTP Request
+2020-03-03 22:41:30,274 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-97
+2020-03-03 22:41:30,274 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-42
+2020-03-03 22:41:30,275 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-62
+2020-03-03 22:41:30,275 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-42 sampler: HTTP Request
+2020-03-03 22:41:30,276 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-33
+2020-03-03 22:41:30,276 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-67
+2020-03-03 22:41:30,276 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-67 sampler: HTTP Request
+2020-03-03 22:41:30,278 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-18
+2020-03-03 22:41:30,279 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-18 sampler: HTTP Request
+2020-03-03 22:41:30,279 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-42
+2020-03-03 22:41:30,280 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-67
+2020-03-03 22:41:30,282 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-3
+2020-03-03 22:41:30,282 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-3 sampler: HTTP Request
+2020-03-03 22:41:30,284 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-28
+2020-03-03 22:41:30,284 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-28 sampler: HTTP Request
+2020-03-03 22:41:30,284 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2020-03-03 22:41:30,284 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-87
+2020-03-03 22:41:30,285 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2020-03-03 22:41:30,285 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-87 sampler: HTTP Request
+2020-03-03 22:41:30,286 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-28
+2020-03-03 22:41:30,295 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-46
+2020-03-03 22:41:30,295 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-87
+2020-03-03 22:41:30,295 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-46 sampler: HTTP Request
+2020-03-03 22:41:30,301 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-94
+2020-03-03 22:41:30,301 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-94 sampler: HTTP Request
+2020-03-03 22:41:30,304 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-46
+2020-03-03 22:41:30,306 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-94
+2020-03-03 22:41:30,306 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-12
+2020-03-03 22:41:30,306 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-12 sampler: HTTP Request
+2020-03-03 22:41:30,307 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-99
+2020-03-03 22:41:30,307 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-99 sampler: HTTP Request
+2020-03-03 22:41:30,307 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2020-03-03 22:41:30,307 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-47
+2020-03-03 22:41:30,308 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-47 sampler: HTTP Request
+2020-03-03 22:41:30,308 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-99
+2020-03-03 22:41:30,308 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-81
+2020-03-03 22:41:30,308 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-81 sampler: HTTP Request
+2020-03-03 22:41:30,308 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-47
+2020-03-03 22:41:30,309 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-75
+2020-03-03 22:41:30,309 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-75 sampler: HTTP Request
+2020-03-03 22:41:30,309 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-52
+2020-03-03 22:41:30,309 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-52 sampler: HTTP Request
+2020-03-03 22:41:30,310 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-6
+2020-03-03 22:41:30,311 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-6 sampler: HTTP Request
+2020-03-03 22:41:30,315 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-81
+2020-03-03 22:41:30,315 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-52
+2020-03-03 22:41:30,315 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-75
+2020-03-03 22:41:30,315 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-11
+2020-03-03 22:41:30,315 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-11 sampler: HTTP Request
+2020-03-03 22:41:30,316 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2020-03-03 22:41:30,316 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-86
+2020-03-03 22:41:30,316 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-86 sampler: HTTP Request
+2020-03-03 22:41:30,316 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2020-03-03 22:41:30,317 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-79
+2020-03-03 22:41:30,317 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-79 sampler: HTTP Request
+2020-03-03 22:41:30,317 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-86
+2020-03-03 22:41:30,317 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-83
+2020-03-03 22:41:30,317 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-83 sampler: HTTP Request
+2020-03-03 22:41:30,319 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-79
+2020-03-03 22:41:30,320 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-65
+2020-03-03 22:41:30,320 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-65 sampler: HTTP Request
+2020-03-03 22:41:30,320 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-83
+2020-03-03 22:41:30,321 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-59
+2020-03-03 22:41:30,322 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-59 sampler: HTTP Request
+2020-03-03 22:41:30,322 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-65
+2020-03-03 22:41:30,323 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-59
+2020-03-03 22:41:30,323 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-71
+2020-03-03 22:41:30,323 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-71 sampler: HTTP Request
+2020-03-03 22:41:30,324 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-17
+2020-03-03 22:41:30,324 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-17 sampler: HTTP Request
+2020-03-03 22:41:30,324 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-5
+2020-03-03 22:41:30,324 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-71
+2020-03-03 22:41:30,325 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-5 sampler: HTTP Request
+2020-03-03 22:41:30,325 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2020-03-03 22:41:30,325 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-50
+2020-03-03 22:41:30,325 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-50 sampler: HTTP Request
+2020-03-03 22:41:30,326 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-4
+2020-03-03 22:41:30,326 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2020-03-03 22:41:30,326 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-4 sampler: HTTP Request
+2020-03-03 22:41:30,327 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-50
+2020-03-03 22:41:30,327 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-45
+2020-03-03 22:41:30,327 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-45 sampler: HTTP Request
+2020-03-03 22:41:30,327 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2020-03-03 22:41:30,328 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-30
+2020-03-03 22:41:30,328 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-30 sampler: HTTP Request
+2020-03-03 22:41:30,328 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-45
+2020-03-03 22:41:30,331 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-14
+2020-03-03 22:41:30,332 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-14 sampler: HTTP Request
+2020-03-03 22:41:30,333 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-30
+2020-03-03 22:41:30,333 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-2
+2020-03-03 22:41:30,333 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-2 sampler: HTTP Request
+2020-03-03 22:41:30,334 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2020-03-03 22:41:30,334 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-03-03 22:41:30,334 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-41
+2020-03-03 22:41:30,335 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-41 sampler: HTTP Request
+2020-03-03 22:41:30,335 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-26
+2020-03-03 22:41:30,336 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-41
+2020-03-03 22:41:30,336 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-26 sampler: HTTP Request
+2020-03-03 22:41:30,337 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-54
+2020-03-03 22:41:30,338 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-54 sampler: HTTP Request
+2020-03-03 22:41:30,338 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-26
+2020-03-03 22:41:30,338 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-80
+2020-03-03 22:41:30,338 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-80 sampler: HTTP Request
+2020-03-03 22:41:30,339 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-82
+2020-03-03 22:41:30,339 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-54
+2020-03-03 22:41:30,339 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-82 sampler: HTTP Request
+2020-03-03 22:41:30,339 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-80
+2020-03-03 22:41:30,339 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-51
+2020-03-03 22:41:30,340 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-82
+2020-03-03 22:41:30,340 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-51 sampler: HTTP Request
+2020-03-03 22:41:30,341 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-20
+2020-03-03 22:41:30,342 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-20 sampler: HTTP Request
+2020-03-03 22:41:30,342 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-51
+2020-03-03 22:41:30,342 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-95
+2020-03-03 22:41:30,344 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2020-03-03 22:41:30,344 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-95 sampler: HTTP Request
+2020-03-03 22:41:30,347 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-95
+2020-03-03 22:41:30,348 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-03-03 22:41:30,349 INFO o.a.j.s.FileServer: Close: /Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1/username-dumps/usernames-10000-0.csv
+2020-03-03 22:41:30,350 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-03-03 22:41:31,702 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-03-03 22:41:31,703 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-03-03 22:41:31,704 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-03-03 22:41:31,942 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-03-03 22:41:31,944 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group.
+2020-03-03 22:41:31,944 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-03-03 22:41:31,944 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2020-03-03 22:41:31,948 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-03-03 22:41:31,949 INFO o.a.j.s.FileServer: Stored: /Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1/username-dumps/usernames-10000-0.csv
+2020-03-03 22:41:31,958 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-03-03 22:41:31,958 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-03-03 22:41:32,047 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-03-03 22:41:32,150 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2020-03-03 22:41:32,251 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2020-03-03 22:41:32,347 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2020-03-03 22:41:32,447 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2020-03-03 22:41:32,549 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2020-03-03 22:41:32,646 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2020-03-03 22:41:32,750 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2020-03-03 22:41:32,846 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2020-03-03 22:42:07,046 INFO o.a.j.g.a.Start: Stopping test
+2020-03-03 22:42:07,085 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-6
+2020-03-03 22:42:07,086 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-6 sampler: HTTP Request
+2020-03-03 22:42:07,086 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-7
+2020-03-03 22:42:07,087 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-7 sampler: HTTP Request
+2020-03-03 22:42:07,088 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-9
+2020-03-03 22:42:07,088 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-9 sampler: HTTP Request
+2020-03-03 22:42:07,088 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2020-03-03 22:42:07,089 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-8
+2020-03-03 22:42:07,089 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-8 sampler: HTTP Request
+2020-03-03 22:42:07,089 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2020-03-03 22:42:07,091 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-5
+2020-03-03 22:42:07,091 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2020-03-03 22:42:07,091 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-5 sampler: HTTP Request
+2020-03-03 22:42:07,092 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2020-03-03 22:42:07,093 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-3
+2020-03-03 22:42:07,093 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-3 sampler: HTTP Request
+2020-03-03 22:42:07,094 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-4
+2020-03-03 22:42:07,094 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-4 sampler: HTTP Request
+2020-03-03 22:42:07,094 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2020-03-03 22:42:07,095 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2020-03-03 22:42:07,095 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-1
+2020-03-03 22:42:07,095 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-1 sampler: HTTP Request
+2020-03-03 22:42:07,096 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2020-03-03 22:42:07,096 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-2
+2020-03-03 22:42:07,096 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-2 sampler: HTTP Request
+2020-03-03 22:42:07,097 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-03-03 22:42:07,099 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-10
+2020-03-03 22:42:07,099 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-10 sampler: HTTP Request
+2020-03-03 22:42:07,101 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2020-03-03 22:42:07,108 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-03-03 22:42:07,109 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-03-03 22:42:07,109 INFO o.a.j.s.FileServer: Close: /Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1/username-dumps/usernames-10000-0.csv
+2020-03-03 22:42:07,109 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-03-03 22:42:19,688 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-03-03 22:42:19,688 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-03-03 22:42:19,689 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-03-03 22:42:19,861 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-03-03 22:42:19,861 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group.
+2020-03-03 22:42:19,861 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-03-03 22:42:19,861 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2020-03-03 22:42:19,864 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-03-03 22:42:19,865 INFO o.a.j.s.FileServer: Stored: /Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1/username-dumps/usernames-10000-0.csv
+2020-03-03 22:42:19,873 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-03-03 22:42:19,873 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-03-03 22:42:19,965 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-03-03 22:42:20,064 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2020-03-03 22:42:20,168 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2020-03-03 22:42:20,266 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2020-03-03 22:42:20,368 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2020-03-03 22:42:20,464 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2020-03-03 22:42:20,564 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2020-03-03 22:42:20,663 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2020-03-03 22:42:20,764 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2020-03-03 22:42:30,804 INFO o.a.j.g.a.Start: Stopping test
+2020-03-03 22:42:30,839 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-8
+2020-03-03 22:42:30,839 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-8 sampler: HTTP Request
+2020-03-03 22:42:30,846 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-3
+2020-03-03 22:42:30,846 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-3 sampler: HTTP Request
+2020-03-03 22:42:30,850 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2020-03-03 22:42:30,851 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-5
+2020-03-03 22:42:30,851 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-5 sampler: HTTP Request
+2020-03-03 22:42:30,856 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2020-03-03 22:42:30,859 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-9
+2020-03-03 22:42:30,859 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-9 sampler: HTTP Request
+2020-03-03 22:42:30,867 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2020-03-03 22:42:30,873 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-1
+2020-03-03 22:42:30,873 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-1 sampler: HTTP Request
+2020-03-03 22:42:30,874 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2020-03-03 22:42:30,878 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-7
+2020-03-03 22:42:30,878 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-7 sampler: HTTP Request
+2020-03-03 22:42:30,879 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-6
+2020-03-03 22:42:30,879 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-6 sampler: HTTP Request
+2020-03-03 22:42:30,879 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-03-03 22:42:30,879 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2020-03-03 22:42:30,882 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-2
+2020-03-03 22:42:30,883 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-2 sampler: HTTP Request
+2020-03-03 22:42:30,884 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2020-03-03 22:42:30,886 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-4
+2020-03-03 22:42:30,886 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-4 sampler: HTTP Request
+2020-03-03 22:42:30,887 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-03-03 22:42:30,888 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-10
+2020-03-03 22:42:30,888 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-10 sampler: HTTP Request
+2020-03-03 22:42:30,888 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2020-03-03 22:42:30,894 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2020-03-03 22:42:30,895 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-03-03 22:42:30,895 INFO o.a.j.s.FileServer: Close: /Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1/username-dumps/usernames-10000-0.csv
+2020-03-03 22:42:30,897 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-03-03 22:44:22,472 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-03-03 22:44:22,473 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-03-03 22:44:22,474 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-03-03 22:44:22,642 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-03-03 22:44:22,642 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group.
+2020-03-03 22:44:22,642 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-03-03 22:44:22,642 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2020-03-03 22:44:22,643 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-03-03 22:44:22,644 INFO o.a.j.s.FileServer: Stored: /Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1/username-dumps/usernames-10000-0.csv
+2020-03-03 22:44:22,658 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-03-03 22:44:22,658 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-03-03 22:44:22,743 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-03-03 22:44:22,847 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2020-03-03 22:44:22,947 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2020-03-03 22:44:23,047 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2020-03-03 22:44:23,153 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2020-03-03 22:44:23,247 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2020-03-03 22:44:23,348 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2020-03-03 22:44:23,447 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2020-03-03 22:44:23,547 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2020-03-03 22:45:11,729 INFO o.a.j.g.a.Start: Stopping test
+2020-03-03 22:45:11,762 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-3
+2020-03-03 22:45:11,762 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-3 sampler: HTTP Request
+2020-03-03 22:45:11,763 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-2
+2020-03-03 22:45:11,763 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-2 sampler: HTTP Request
+2020-03-03 22:45:11,764 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-5
+2020-03-03 22:45:11,764 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-5 sampler: HTTP Request
+2020-03-03 22:45:11,764 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2020-03-03 22:45:11,765 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-8
+2020-03-03 22:45:11,765 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-8 sampler: HTTP Request
+2020-03-03 22:45:11,765 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-03-03 22:45:11,766 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-9
+2020-03-03 22:45:11,766 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-9 sampler: HTTP Request
+2020-03-03 22:45:11,766 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2020-03-03 22:45:11,767 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-6
+2020-03-03 22:45:11,767 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2020-03-03 22:45:11,767 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-6 sampler: HTTP Request
+2020-03-03 22:45:11,768 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2020-03-03 22:45:11,768 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-10
+2020-03-03 22:45:11,768 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-10 sampler: HTTP Request
+2020-03-03 22:45:11,769 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-4
+2020-03-03 22:45:11,769 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2020-03-03 22:45:11,769 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-4 sampler: HTTP Request
+2020-03-03 22:45:11,769 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-7
+2020-03-03 22:45:11,769 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-7 sampler: HTTP Request
+2020-03-03 22:45:11,769 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2020-03-03 22:45:11,770 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2020-03-03 22:45:11,770 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-1
+2020-03-03 22:45:11,770 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-1 sampler: HTTP Request
+2020-03-03 22:45:11,771 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2020-03-03 22:45:11,771 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-03-03 22:45:11,772 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-03-03 22:45:11,772 INFO o.a.j.s.FileServer: Close: /Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1/username-dumps/usernames-10000-0.csv
+2020-03-03 22:45:11,773 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-03-03 22:46:21,197 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-03-03 22:46:21,198 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-03-03 22:46:21,199 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-03-03 22:46:21,389 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-03-03 22:46:21,389 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group.
+2020-03-03 22:46:21,389 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-03-03 22:46:21,389 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2020-03-03 22:46:21,391 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-03-03 22:46:21,392 INFO o.a.j.s.FileServer: Stored: /Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1/username-dumps/usernames-10000-0.csv
+2020-03-03 22:46:21,402 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-03-03 22:46:21,403 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-03-03 22:46:21,419 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2020-03-03 22:46:21,419 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-03-03 22:46:21,496 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-03-03 22:46:21,507 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2020-03-03 22:46:21,507 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-03-03 22:46:21,592 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2020-03-03 22:46:21,603 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2020-03-03 22:46:21,603 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2020-03-03 22:46:21,691 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2020-03-03 22:46:21,699 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2020-03-03 22:46:21,701 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2020-03-03 22:46:21,792 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2020-03-03 22:46:21,801 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2020-03-03 22:46:21,801 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2020-03-03 22:46:21,894 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2020-03-03 22:46:21,903 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2020-03-03 22:46:21,903 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2020-03-03 22:46:21,990 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2020-03-03 22:46:22,001 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2020-03-03 22:46:22,001 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2020-03-03 22:46:22,095 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2020-03-03 22:46:22,105 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2020-03-03 22:46:22,105 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2020-03-03 22:46:22,197 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2020-03-03 22:46:22,207 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2020-03-03 22:46:22,208 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2020-03-03 22:46:22,300 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2020-03-03 22:46:22,309 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2020-03-03 22:46:22,309 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2020-03-03 22:46:22,309 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-03-03 22:46:22,309 INFO o.a.j.s.FileServer: Close: /Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1/username-dumps/usernames-10000-0.csv
+2020-03-03 22:46:22,310 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-03-03 22:46:26,019 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-03-03 22:46:26,019 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-03-03 22:46:26,020 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-03-03 22:46:26,171 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-03-03 22:46:26,171 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group.
+2020-03-03 22:46:26,171 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-03-03 22:46:26,171 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2020-03-03 22:46:26,172 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-03-03 22:46:26,173 INFO o.a.j.s.FileServer: Stored: /Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1/username-dumps/usernames-10000-0.csv
+2020-03-03 22:46:26,197 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-03-03 22:46:26,197 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-03-03 22:46:26,207 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2020-03-03 22:46:26,207 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-03-03 22:46:26,274 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-03-03 22:46:26,284 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2020-03-03 22:46:26,284 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-03-03 22:46:26,373 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2020-03-03 22:46:26,381 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2020-03-03 22:46:26,381 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2020-03-03 22:46:26,477 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2020-03-03 22:46:26,485 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2020-03-03 22:46:26,485 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2020-03-03 22:46:26,576 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2020-03-03 22:46:26,584 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2020-03-03 22:46:26,584 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2020-03-03 22:46:26,681 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2020-03-03 22:46:26,692 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2020-03-03 22:46:26,692 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2020-03-03 22:46:26,779 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2020-03-03 22:46:26,788 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2020-03-03 22:46:26,788 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2020-03-03 22:46:26,878 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2020-03-03 22:46:26,889 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2020-03-03 22:46:26,889 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2020-03-03 22:46:26,981 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2020-03-03 22:46:26,991 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2020-03-03 22:46:26,991 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2020-03-03 22:46:27,081 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2020-03-03 22:46:27,091 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2020-03-03 22:46:27,091 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2020-03-03 22:46:27,091 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-03-03 22:46:27,091 INFO o.a.j.s.FileServer: Close: /Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1/username-dumps/usernames-10000-0.csv
+2020-03-03 22:46:27,092 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-03-03 22:46:41,681 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-03-03 22:46:41,681 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-03-03 22:46:41,683 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-03-03 22:46:41,826 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-03-03 22:46:41,826 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group.
+2020-03-03 22:46:41,826 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-03-03 22:46:41,826 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2020-03-03 22:46:41,830 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-03-03 22:46:41,831 INFO o.a.j.s.FileServer: Stored: /Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1/username-dumps/usernames-10000-0.csv
+2020-03-03 22:46:41,847 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-03-03 22:46:41,847 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-03-03 22:46:41,927 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2020-03-03 22:46:41,927 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-03-03 22:46:41,935 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-03-03 22:46:41,980 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2020-03-03 22:46:41,980 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-03-03 22:46:42,035 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2020-03-03 22:46:42,085 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2020-03-03 22:46:42,085 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2020-03-03 22:46:42,135 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2020-03-03 22:46:42,191 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2020-03-03 22:46:42,192 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2020-03-03 22:46:42,234 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2020-03-03 22:46:42,283 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2020-03-03 22:46:42,283 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2020-03-03 22:46:42,334 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2020-03-03 22:46:42,436 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2020-03-03 22:46:42,506 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2020-03-03 22:46:42,506 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2020-03-03 22:46:42,532 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2020-03-03 22:46:42,587 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2020-03-03 22:46:42,587 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2020-03-03 22:46:42,611 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2020-03-03 22:46:42,611 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2020-03-03 22:46:42,632 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2020-03-03 22:46:42,685 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2020-03-03 22:46:42,685 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2020-03-03 22:46:42,732 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2020-03-03 22:46:42,784 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2020-03-03 22:46:42,784 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2020-03-03 22:46:42,784 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-03-03 22:46:42,784 INFO o.a.j.s.FileServer: Close: /Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1/username-dumps/usernames-10000-0.csv
+2020-03-03 22:46:42,785 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-03-03 22:48:50,349 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-03-03 22:48:50,349 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-03-03 22:48:50,350 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-03-03 22:48:50,521 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-03-03 22:48:50,521 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group.
+2020-03-03 22:48:50,521 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-03-03 22:48:50,521 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2020-03-03 22:48:50,524 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-03-03 22:48:50,528 INFO o.a.j.s.FileServer: Stored: /Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1/username-dumps/usernames-10000-0.csv
+2020-03-03 22:48:50,555 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-03-03 22:48:50,556 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-03-03 22:48:50,631 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-03-03 22:48:50,734 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2020-03-03 22:48:50,827 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2020-03-03 22:48:50,928 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2020-03-03 22:48:51,026 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2020-03-03 22:48:51,124 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2020-03-03 22:48:51,227 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2020-03-03 22:48:51,328 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2020-03-03 22:48:51,427 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2020-03-03 22:52:16,248 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2020-03-03 22:52:16,248 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2020-03-03 22:52:18,316 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2020-03-03 22:52:18,316 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2020-03-03 22:52:20,834 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2020-03-03 22:52:20,834 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2020-03-03 22:52:22,902 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2020-03-03 22:52:22,902 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2020-03-03 22:52:23,857 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2020-03-03 22:52:23,857 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2020-03-03 22:52:24,512 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2020-03-03 22:52:24,512 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2020-03-03 22:52:25,376 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2020-03-03 22:52:25,376 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2020-03-03 22:52:25,409 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2020-03-03 22:52:25,410 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2020-03-03 22:52:26,242 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2020-03-03 22:52:26,242 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-03-03 22:52:26,427 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2020-03-03 22:52:26,427 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-03-03 22:52:26,427 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-03-03 22:52:26,428 INFO o.a.j.s.FileServer: Close: /Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1/username-dumps/usernames-10000-0.csv
+2020-03-03 22:52:26,428 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-03-04 10:06:44,352 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-03-04 10:06:44,390 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-03-04 10:06:44,397 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-03-04 10:06:48,353 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-03-04 10:06:48,355 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group.
+2020-03-04 10:06:48,355 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-03-04 10:06:48,355 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2020-03-04 10:06:48,361 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-03-04 10:06:48,362 INFO o.a.j.s.FileServer: Stored: /Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1/username-dumps/usernames-10000-0.csv
+2020-03-04 10:06:48,368 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-03-04 10:06:48,368 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-03-04 10:06:48,463 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-03-04 10:06:48,560 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2020-03-04 10:06:48,659 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2020-03-04 10:06:48,761 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2020-03-04 10:06:48,861 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2020-03-04 10:06:48,958 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2020-03-04 10:06:49,062 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2020-03-04 10:06:49,158 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2020-03-04 10:06:49,258 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2020-03-04 10:07:00,436 INFO o.a.j.g.a.Start: Stopping test
+2020-03-04 10:07:00,481 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-3
+2020-03-04 10:07:00,490 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-3 sampler: HTTP Request
+2020-03-04 10:07:00,491 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-4
+2020-03-04 10:07:00,491 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-4 sampler: HTTP Request
+2020-03-04 10:07:00,492 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2020-03-04 10:07:00,492 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-2
+2020-03-04 10:07:00,492 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-2 sampler: HTTP Request
+2020-03-04 10:07:00,493 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-7
+2020-03-04 10:07:00,493 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-7 sampler: HTTP Request
+2020-03-04 10:07:00,493 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-03-04 10:07:00,494 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2020-03-04 10:07:00,494 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-5
+2020-03-04 10:07:00,494 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-5 sampler: HTTP Request
+2020-03-04 10:07:00,495 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-10
+2020-03-04 10:07:00,495 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2020-03-04 10:07:00,496 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-10 sampler: HTTP Request
+2020-03-04 10:07:00,497 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-8
+2020-03-04 10:07:00,497 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-8 sampler: HTTP Request
+2020-03-04 10:07:00,497 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2020-03-04 10:07:00,498 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2020-03-04 10:07:00,499 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-1
+2020-03-04 10:07:00,499 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-1 sampler: HTTP Request
+2020-03-04 10:07:00,500 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2020-03-04 10:07:00,500 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-9
+2020-03-04 10:07:00,500 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-9 sampler: HTTP Request
+2020-03-04 10:07:00,501 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-6
+2020-03-04 10:07:00,501 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-6 sampler: HTTP Request
+2020-03-04 10:07:00,501 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-03-04 10:07:00,502 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2020-03-04 10:07:00,504 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2020-03-04 10:07:00,504 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-03-04 10:07:00,504 INFO o.a.j.s.FileServer: Close: /Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1/username-dumps/usernames-10000-0.csv
+2020-03-04 10:07:00,505 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-03-04 10:07:08,742 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-03-04 10:07:08,743 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-03-04 10:07:08,743 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-03-04 10:07:08,922 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-03-04 10:07:08,928 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group.
+2020-03-04 10:07:08,928 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-03-04 10:07:08,928 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2020-03-04 10:07:08,929 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-03-04 10:07:08,929 INFO o.a.j.s.FileServer: Stored: /Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1/username-dumps/usernames-10000-0.csv
+2020-03-04 10:07:08,936 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-03-04 10:07:08,936 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-03-04 10:07:09,031 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2020-03-04 10:07:09,128 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2020-03-04 10:07:09,229 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2020-03-04 10:07:09,331 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2020-03-04 10:07:09,432 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2020-03-04 10:07:09,533 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2020-03-04 10:07:09,632 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2020-03-04 10:07:09,733 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2020-03-04 10:07:09,830 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2020-03-04 10:08:35,984 INFO o.a.j.g.a.Start: Stopping test
+2020-03-04 10:08:36,033 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-3
+2020-03-04 10:08:36,034 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-3 sampler: HTTP Request
+2020-03-04 10:08:36,034 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-6
+2020-03-04 10:08:36,035 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-6 sampler: HTTP Request
+2020-03-04 10:08:36,035 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-4
+2020-03-04 10:08:36,035 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-4 sampler: HTTP Request
+2020-03-04 10:08:36,036 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2020-03-04 10:08:36,036 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2020-03-04 10:08:36,036 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-8
+2020-03-04 10:08:36,037 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-8 sampler: HTTP Request
+2020-03-04 10:08:36,037 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2020-03-04 10:08:36,038 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-10
+2020-03-04 10:08:36,038 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-10 sampler: HTTP Request
+2020-03-04 10:08:36,039 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2020-03-04 10:08:36,039 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-2
+2020-03-04 10:08:36,039 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-2 sampler: HTTP Request
+2020-03-04 10:08:36,040 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-1
+2020-03-04 10:08:36,040 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2020-03-04 10:08:36,040 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-1 sampler: HTTP Request
+2020-03-04 10:08:36,041 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-5
+2020-03-04 10:08:36,041 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-5 sampler: HTTP Request
+2020-03-04 10:08:36,041 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2020-03-04 10:08:36,042 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-9
+2020-03-04 10:08:36,042 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-03-04 10:08:36,042 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-9 sampler: HTTP Request
+2020-03-04 10:08:36,042 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-7
+2020-03-04 10:08:36,042 WARN o.a.j.t.JMeterThread: Interrupting: Thread Group 1-7 sampler: HTTP Request
+2020-03-04 10:08:36,043 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2020-03-04 10:08:36,043 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2020-03-04 10:08:36,043 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2020-03-04 10:08:36,044 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-03-04 10:08:36,044 INFO o.a.j.s.FileServer: Close: /Users/TsengYaoShang/Documents/hands-on-courses/microservices-with-go/section-5-1/username-dumps/usernames-10000-0.csv
+2020-03-04 10:08:36,044 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
