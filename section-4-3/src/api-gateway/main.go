@@ -22,11 +22,11 @@ func main() {
 	r.HandleFunc("/restricted/resource-1", handlers.VerifyJWT(h.AddSessionData(h.Restricted1)))
 	r.HandleFunc("/restricted/resource-2", handlers.VerifyJWT(h.AddSessionData(h.Restricted2)))
 
-	// certPath := "server.pem"
-	// keyPath := "server.key"
-	//
-	// err := http.ListenAndServeTLS(":8443", certPath, keyPath, r)
-	err := http.ListenAndServe(":8443", r)
+	certPath := "server.pem"
+	keyPath := "server.key"
+
+	err := http.ListenAndServeTLS(":8443", certPath, keyPath, r)
+	// err := http.ListenAndServe(":8443", r)
 	if err != nil {
 		log.Fatal("ListenAndServe: ", err)
 	}
